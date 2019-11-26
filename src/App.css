@@ -1,22 +1,409 @@
-.App {
+
+@import url('https://fonts.googleapis.com/css?family=Farro|Raleway&display=swap');
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Farro', sans-serif; */
+
+
+@font-face {
+  font-family: 'IBM';
+  font-style: normal;
+  font-weight: 700;
+  src: local("IBM Plex Mono Bold"), local("IBMPlexMono-Bold"), url("./IBM-Plex-Mono/fonts/complete/woff2/IBMPlexMono-Bold.woff2") format("woff2"), url("./IBM-Plex-Mono/fonts/complete/woff/IBMPlexMono-Bold.woff") format("woff"); }
+
+.btn{
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.flex-row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .App {
   text-align: center;
 }
 
 .App-logo {
   height: 40vmin;
+} */
+
+#header {
+  background-color: #ffffff;
+  height: 64px;
+  width: 100%;
+  color: black;
+  justify-content: flex-start;
+  z-index: 3;
+  position: sticky;
+  top: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.show{
+  transition: .5s ease;
+  transform: translateY(0);
+}
+
+.hide{
+  transition: .5s ease;
+  transform: translateY(-64px);
+}
+
+.logo{
+  width: 200px;
+  color: #ff0000;
+  font-size: 2em;
+  justify-content: flex-end;
+}
+
+.hor-div{
+  border-left: rgb(255, 230, 0) 1px solid;
+  height: 48px;
+  width: 3px;
+  margin: 0 10px;
+}
+
+.tab{
+  margin:15px;
+  color: #fc5000;
+  font-size: 1em;
+  border-bottom: 1px solid #ffffff;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.tab:hover{
+  border-bottom: 1px solid #272727;
+  transition: 1s ease;
 }
 
 .App-link {
   color: #09d3ac;
+}
+
+.shadow{
+  box-shadow: 3px 3px 10px -4px rgba(0, 0, 0, 0.623);
+}
+
+.article{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  margin-bottom: 16px;
+  
+  
+  
+}
+
+
+.title-box{
+  
+  
+  max-width: 900px;
+  width: 100%;
+}
+
+.body-box{
+  
+  
+  max-width: 900px;
+  width: 100%;
+}
+
+.title{
+  color: #272727;
+  font-size: 2em;
+  /* height: 100px; */
+  padding: 32px;
+  font-family: 'Farro', sans-serif;
+  
+}
+
+.body{
+  /* font-family: IBM; */
+  /* text-indent: 2em; */
+  color: black;
+  text-align: left;
+  white-space: pre-wrap;
+  font-family: 'Farro', sans-serif;
+  padding: 64px 15%;
+  line-height: 29px;
+  
+}
+
+.image{
+  /* float: left; */
+  width: 100vw;
+  max-width: 900px;
+  margin: 10px 0;
+  /* margin-right: 16px; */
+}
+
+.text-edit-modal{
+  position: fixed;
+  top: 0;
+  border: rgb(255, 88, 116) solid 1px;
+  width: 100%;
+  left: 0;
+  height: 70vh;
+  background-color: rgba(39, 31, 48, 0.808);
+}
+
+textarea{
+  /* font-family: IBM; */
+  /* text-indent: 2em; */
+  color: black;
+  font-size: 1rem;
+  width: 90%;
+  height: 60vh;
+}
+
+.edit-panel{
+  height: 64px;
+  width: 200px;
+  justify-content: space-evenly;
+
+}
+
+.save-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  width: 64px;
+  border: whitesmoke solid 1px;
+  text-indent: initial;
+  color: whitesmoke;
+}
+
+.save-btn:hover{
+  background-color: rgb(92, 92, 92);
+  cursor: pointer;
+}
+
+/* ---------------------------------------------------AUTHOR BAR */
+
+#author-bar{
+  width: 100%;
+  /* border: #09d3ac solid 1px; */
+  justify-content: flex-start;
+  background-color: #ff0000;
+  font-size: .9em;
+  
+}
+
+#author-bar:hover{
+  background-color: rgb(29, 29, 29);
+}
+
+#author-img{
+  margin: 8px;
+  width: 32px;
+  height: 32px;
+  background-size: 350%;
+  background-position: center;
+  border-radius: 50%;
+  background-position-y: 40%;
+  
+}
+
+#author-name{
+  /* text-decoration: underline; */
+  margin-right: 8px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+#author-date{
+  color:rgb(255, 255, 255);
+}
+
+/* ---------------------------------------------LOGGED IN */
+
+#edit-body{
+  width: 400px;
+  height: 32px;
+  /* border: rgb(184, 184, 184) solid 1px; */
+}
+
+#edit-body:hover{
+  background-color: rgb(255, 102, 161);
+
+}
+
+.edit-btn{
+  border: black solid 1px;
+  height: 32px;
+  width: 100%;
+}
+
+/* ----------------------------------------------------FOOTER  */
+
+#footer{
+  margin-top: 16px;
+  width: 100vw;
+  min-width: 400px;
+  height: 200px;
+  background-color: rgb(226, 166, 0);
+}
+
+.footer-bottom{
+  width: 100%;
+  color: white;
+  background-color: #272727;
+  height: 32px;
+}
+
+.fade-in{
+  animation: fadeIn 1s cubic-bezier(0.4,0,0.2,1) forwards;
+}
+
+/* -------------------------------------------------------------------------ARTICLE BAR  */
+
+#article-bar{
+  width: 100%;
+  max-width: 900px;
+  
+  background-color: #ffffff;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.article-bar-header{
+  font-family: 'Farro', sans-serif;
+  font-size: 1.5em;
+  margin: 16px 0;
+  color: #ff0000;
+}
+
+.next-article-box{
+  
+  width: 350px;
+  /* height: 200px; */
+  margin: 8px;
+  transform: scale(1);
+  transition: .2s cubic-bezier(0.4,0,0.2,1);
+  cursor: pointer;
+}
+
+.next-article-box:hover{
+  transform: scale(1.02);
+  opacity: .85;
+  transition: .5s cubic-bezier(0.4,0,0.2,1);
+  z-index: 2;
+  text-decoration: underline;
+}
+
+.next-article-image{
+  width: 350px;
+  height: 200px;
+  background-size: cover;
+}
+
+.next-text{
+  background-color: #ffffff;
+  color: #383838;
+  padding: 8px;
+}
+
+/* --------------------------------------------------------COMMENTS  */
+
+#comment-section{
+  width: 80%;
+  padding: 64px 0;
+}
+
+.comment-section-header{
+  color:#ff0000;
+  font-size: 1.5em;
+  font-family: 'Farro', sans-serif;
+  padding: 16px 0;
+  cursor: pointer;
+}
+
+.comment-box{
+  border: #ff0000 solid 1px;
+  
+  width: 80%;
+  min-width: 300px;
+  margin: 4px 0;
+  display: flex;
+  
+  justify-content: flex-start;
+  
+}
+
+.comment{
+  /* border: #ff0000 solid 1px; */
+  
+  width: 90%;
+  min-width: 300px;
+  margin: 4px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  
+}
+.comment-heart{
+  width: 10%;
+}
+
+.hearts{
+  position: absolute;
+  color: #ffffff;
+}
+
+
+.comment-bar{
+  
+  width: 100%;
+  padding: 8px 0;
+  justify-content: flex-start;
+  background-color: #f1f1f1;
+}
+
+.left{
+  width: 300px;
+  /* border: #ff0000 solid 1px; */
+  justify-content: space-evenly;
+}
+.comment-user{
+
+}
+.comment-date{
+  font-size: .8em;
+  
+}
+.comment-rating{
+  justify-content: space-evenly;
+  width: 100px;
+}
+
+.comment-body{
+  padding: 8px;
+}
+
+@keyframes fadeIn {
+  0%{
+    opacity: .4;
+    transform: translateY(-5%);
+  }
+  30%{
+    opacity: .4;
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(1);
+  }
 }
