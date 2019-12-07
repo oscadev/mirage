@@ -73,6 +73,11 @@ export const Article = (props) => {
                     {body}
                 
                 </div>
+                <div className="youtube" style={{display:data[props.id].video?"":"none"}}>
+                <iframe className="youtube-iframe"
+                    src={`https://www.youtube.com/embed/${data[props.id].video}`}>
+                </iframe>
+                </div>
             </div>
 
             <div className="text-edit-modal flex" style={{display:edit?"":"none"}}>

@@ -3,9 +3,10 @@ export const data = [
         title: "How Is The Original Contra Still So Got Damn Good",
         body: "Contra Anniversary Collection surprise launched earlier this week, and with it came the first official rerelease of the Nintendo Entertainment System version of Contra in a long while. And I have to ask: How is it that this game is still so freaking good?\n\nI try my best to not wear my rose-colored glasses when I look back at older video games. Really, I do! I understand that most things I enjoyed then are more ephemeral than not. I remember this when I hear people 10 years older than me talk about how Atari 2600 games are true “timeless classics” that “will never go out of style” and meanwhile, I look at the Atari controller and it resembles a medieval torture device.\n\n\nI fully admit that most NES games have not aged well. But goddamn, Contra has aged like a motherfucking Cabernet Franc. It’s just everything: the way the colorful graphics pop and contrast. The grotesque alien designs. The tiny yet well-defined characters, presenting a platforming-shooting-bullet-dodging challenge that’s tough, but always fair.\n\nIllustration for article titled How Is The Original iContra/i Still So Got Damn Good\nScreenshot: Konami (VGMuseum)\nThe controls. The responsiveness of a jump; push the A button and your character effortlessly backflips in the air, and you can tweak his positioning just so on the way down. In the first couple seconds of playing Contra, you can feel that pure joy at leaping while firing bullets. And that ass-kicking soundtrack blasts in, a catchy earworm of a melody that runs through a bunch of different riffs before it loops back again.\n\nWhy did the upgraded weapons fly onto the screen in capsules undulating in sine waves? Why, when you shot them down, did they land as big red winged icons with a single letter denoting what kind of gun they would grant you? Who knows! I mean, I’m sure somebody knows. But to the player, all that really matters is that in a genre where most games would have represented a new gun with a boring picture of a gun, Contra did it in a signature stylized fashion, almost like a loot box. When you hit the jackpot and a wing with an S floats down, meaning you’re about to get the “spread gun,” it’s like Christmas.\n\nYou put it all together and it’s just this beautiful harmony of sights, sounds, and action that never lets up. I’ve barely even played any of the other games in the collection yet, and I’m thinking of maybe going back and playing Contra again. You can even play the Japanese Famicom version of it in this collection, which has extra cinematic scenes and more graphical flourishes.\n\nI remember buying Contra the first time. I bought it from a kid I knew from church, at the church. It was 10 dollars. He’d kept it in the box. I don’t remember the kid. I remember the box. That box illustration was beautiful, and the game itself delivered on the promise of that box art in a way few NES games did—at least, it delivered once you got to some of the bigger alien bosses. There’s a collector out there who’ll pay $100,000 for the original of that box art. I’m OK with my $10 copy. And I’m extremely OK with Contra Anniversary Collection.",
         image: "https://i.kinja-img.com/gawker-media/image/upload/crrxuykhvxpimrjpqjiw.png",
+        video:"89CS1ciqyss",
         comments:[
             {
-                user: "JoeShmoe",
+                user: "gamerlegendz",
                 body: "Most of Konami’s NES games hold up incredibly well. Say what you will about the Konami of today, you certainly can’t argue that they made some killer games back in the 8 and 16bit eras.",
                 avatar: '',
                 date: "11/12/19",
@@ -48,7 +49,7 @@ export const data = [
         body: "When Microsoft’s video game streaming service, Project xCloud, began its beta last month, there were only four games available to test. Now there are over 50. I spent a day taking the service on the road with me to see how it’s working.\n\nCurrently, the service streams games from Microsoft’s servers to a smartphone or tablet and requires a bluetooth controller, Xbox One or otherwise, to start playing. In the future, Microsoft plans for xCloud to also stream to PCs, support touch controls, and carry save data over seamlessly from your main Xbox console. While the current version is pretty barebones, the straightforwardness is nice. Just start up the app, select a game, and start playing.\n\n\nAs someone who often commutes, sometimes long distances (Kotaku is based in New York City; I live in Philadelphia), I’m uniquely situated to benefit from the convenience and portability of video game streaming. If xCloud can let me take an Xbox One (and eventually a Project Scarlet) with me wherever I go, it could fundamentally change how video games fit into my life. Of course, so would self-driving cars. It’s not clear yet just how close either of those futures is.\n\n5:45 a.m. - The Morning Routine\nI come to. It slowly dawns on me that it is not the weekend and in fact only Tuesday. I prepare the coffee machine, put some 10-grain cereal in the microwave for my partner, and set it for three and a half minutes. This is precisely enough time to boot up the xCloud app on my phone, load Borderlands 2, and get through the opening credits. The only thing that feels different is instead of staring at a 40-some-odd-inch display in my living room, I’m staring at my Pixel 3 on the kitchen counter and simultaneously noticing where last night’s chili has left a stain on the formica.\n\nIllustration for article titled A Day Of Trying To Stream Xbox One Games While On The Go\nThe Microwave pings; I deliver breakfast and take my coffee upstairs to get a shower. Borderlands 2 comes into the bathroom with me, not because I’m intent on playing but because I take my phone everywhere. Usually I sit it in the shower caddy and play a podcast. Today I spend my precious few minutes under the scalding hot water listening to Claptrap make jokes which were never funny but which, over the course of several playthroughs, I’ve grown fond of anyway. After dressing, I take a few moments to run around in the game. It’s responsive, although the audio momentarily cuts out here or there. The only place I can detect a hair of lag is in the menu system where the analog sticks on my Xbox One controller begin to feel ever so slightly sluggish.\n\n8:00 a.m. - The Train\nAfter driving to drop my 5-month-old off at my parents’, ladling leftover chilli into a tupperware container, and generally doing a bunch of other necessary things which are not playing Borderlands 2, I leave the house to grab the bus at the top of my street.\n\nIllustration for article titled A Day Of Trying To Stream Xbox One Games While On The Go\nScreenshot: Kotaku (Crackdown 3)\nThis should be the first big test of xCloud’s capacity to seamlessly fill the lulls in my existence over my phone’s unlimited high-speed Verizon connection. It is instead a test of whether I can juggle my coffee, backpack, phone, and Xbox controller without only one or two dirty looks from the people around me. This means means wedging my backpack between my legs, resting my phone on top, and clutching the controller in a right-handed death grip. There are no games that can successfully be played this way, but I manage to load Crackdown 3’s campaign. It also begins with a long cutscene. Terry Crews’ monologue goes off without a hitch. Then the bus hits a pothole and displaced coffee lightly sprays my setup.\n\nA few minutes later, it’s time to transition to the subway. Once I’m resituated, I drain my coffee and put the thermos away so I can focus on Crackdown. Philly’s blue line is above ground for the first half dozen stops or so. During this time, the game occasionally stutters, but nothing too bad. Instead of a constant feeling of latency, slowdowns seems to come and go all at once. It’s not ideal, but it’s better than feeling like everything I tell Crews to do is on a split-second delay. While there’s still a greater delay than if I were playing on my Xbox One at home, it’s mostly imperceptible while I squint at my phone’s small screen, surrounded by strangers whom the operator implores, for the love of god, not to go between cars while we’re in motion.\n\nIllustration for article titled A Day Of Trying To Stream Xbox One Games While On The Go\nScreenshot: Kotaku (Halo 5)\nIllustration for article titled A Day Of Trying To Stream Xbox One Games While On The Go\nScreenshot: Kotaku (Halo 5)\nThen we go underground at 46th street. The game immediately cuts out, and xCloud sends me back to the main menu. While I can generally stream music, refresh twitter, and send emails underground, stream Crackdown my phone cannot. Anyway, I need to be ready to make a mad dash at my stop to make my train to New York.\n\nOn the train, I pull down the tray from the seat in front of me and fashion a makeshift phone stand out of my journal and some napkins. This time I boot up Halo 5, opting for a quickplay multiplayer match. I assume it’s going to be a dumpster fire, but surprisingly, it works! I’m loaded into a game of Slayer with seven other people and somehow manage to get my first kill within seconds. Everything works, from shooting to throwing grenades to sprinting. Occasionally the screen melts into a pool of random colors and shapes, after which I’m usually killed or find myself running into a wall, but I don’t get disconnected. What would be dreadful for a high-stakes competitive match feels surprisingly satisfying for being on a train going over 100 miles an hour. I wish I could grind through any number of battle passes on my console games this way.\n\n3:30 p.m. - The Office\nAt work, I switch to the office wifi, which performs noticeably worse than my phone. I try a smattering of games between other tasks. Mark of the Ninja, a single-player indie stealth game from several years ago, plays flawlessly for the opening level. Ace Combat 7 struggles. While it feels inherently impressive to be flying through its beautiful skies on such a small device, the occasional lapses in control send me spiralling into the water.\n\nIllustration for article titled A Day Of Trying To Stream Xbox One Games While On The Go\nScreenshot: Kotaku (West of Dead)\n8:00 p.m. - The Megabus\nAfter leaving work but before running to catch my Megabus, I check a GameStop to see if they have any phone mounts for my controller. The guy tells me that they are only really sold online currently but suggests I try a Best Buy several blocks away which, because it’s in the opposite direction of my ride home, I have to abandon.\n\nFortunately, but weirdly, the bus was mostly empty. Do my former Mega-ites know something I don’t? If I must go out in a blaze of double-decker glory, I decide it would only be fitting if I were playing Forza Horizon 4 when shit went sideways. The game was gorgeous when it came out last year and looks remarkably crisp and vibrant on my phone. Steering has the same problems I encountered with Ace Combat, leaving me to veer off course as I try to overcorrect during the lag. I’ve never set record times in Forza, and I’m certainly not going to do it when the picture quality constantly crashes, but for the periods when everything is running smoothly—chunks of 10 seconds—it’s fun to be gunning it down an English countryside in a McLaren Senna while a 100-ton steel death trap shuttles you through Northern Jersey’s industrial parks.\n\nIllustration for article titled A Day Of Trying To Stream Xbox One Games While On The Go\nScreenshot: Kotaku (Forza Horizon 4)\nIllustration for article titled A Day Of Trying To Stream Xbox One Games While On The Go\nScreenshot: Kotaku (Forza Horizon 4)\nBack in Philly, I switch to Soulcalibur VI for the last leg of my trip. Fighting games are fast and unpredictable, and I expect the game to be a jittery mess. In an arcade mode match, I only suffer one framerate crash. The music occasionally cuts out, but the fighter’s movements (Mitsurugi, always Mitsurugi) look and feel fluid enough. I could conceivably play through the game’s entire incomprehensible story mode this way. Instead I switch to an online match where I promptly get my ass kicked, but not because of any technical glitches. I’ve played online matches in games like Super Smash Bros. Ultimate at home with more lag and latency than what I experienced streaming a few matches of Soulcalibur VI.\n\n11:15 p.m. - Back Home\nI play one more match at home on my own Wifi. Parts of it are better than the previous one I’d just played on the bus. Parts of it are worse. Throughout the day, I’d done speed tests to measure my connection. Whether on Wifi or LTE, my speeds varied wildly, sometimes from 5Mbps (very slow) to 25Mbps (fast), sometimes within the span of a few seconds (the service requires a minimum of 10Mbps down). In the end xCloud used 2.54 GB of data for somewhere just over an hour of usage.\n\nThe hardest thing about getting a firm grasp of any streaming technology is isolating all of the other variables involved. In xCloud’s case, that’s my phone, my cell provider’s coverage and signal strength, and the Bluetooth connection to my controller. Ironing out all of those kinks seems like a monumental task for a single company, even one as big as Microsoft or Google.\n\nFor those low-key moments, the experience doesn’t necessarily need to be perfect. While I’m impressed by how well xCloud performs in testing, the most appealing thing about it, at least right now, is the already large library of games it works for. Performance matters a lot when you’re sitting down to play a big game you’re really psyched about, but when you’re casually trying something out, xCloud’s current library of 50-plus games is an enticing way to catch up during downtime.",
         comments:[
             {
-                user: "JoeShmoe",
+                user: "username34",
                 body: "This is a comment",
                 avatar: '',
                 date: "11/12/19",
@@ -57,7 +58,7 @@ export const data = [
                 dislikes: 5,
             },
             {
-                user: "JoeShmoe",
+                user: "pandaman",
                 body: "This is a comment",
                 avatar: '',
                 date: "11/12/19",
@@ -66,7 +67,7 @@ export const data = [
                 dislikes: 5,
             },
             {
-                user: "JoeShmoe",
+                user: "mszelda344",
                 body: "This is a comment",
                 avatar: '',
                 date: "11/12/19",
@@ -75,7 +76,7 @@ export const data = [
                 dislikes: 5,
             },
             {
-                user: "JoeShmoe",
+                user: "Joontario",
                 body: "This is a comment",
                 avatar: '',
                 date: "11/12/19",
@@ -92,7 +93,7 @@ export const data = [
 
         comments:[
             {
-                user: "JoeShmoe",
+                user: "sdfdsg",
                 body: "This is a comment",
                 avatar: '',
                 date: "11/12/19",
@@ -101,7 +102,7 @@ export const data = [
                 dislikes: 5,
             },
             {
-                user: "JoeShmoe",
+                user: "tom44",
                 body: "This is a comment",
                 avatar: '',
                 date: "11/12/19",
@@ -110,7 +111,7 @@ export const data = [
                 dislikes: 5,
             },
             {
-                user: "JoeShmoe",
+                user: "cindy2223",
                 body: "This is a comment",
                 avatar: '',
                 date: "11/12/19",
@@ -119,7 +120,7 @@ export const data = [
                 dislikes: 5,
             },
             {
-                user: "JoeShmoe",
+                user: "jonathan4",
                 body: "This is a comment",
                 avatar: '',
                 date: "11/12/19",
@@ -136,7 +137,7 @@ export const data = [
 
         comments:[
             {
-                user: "JoeShmoe",
+                user: "thewin34",
                 body: "This is a comment",
                 avatar: '',
                 date: "11/12/19",
@@ -145,7 +146,7 @@ export const data = [
                 dislikes: 5,
             },
             {
-                user: "JoeShmoe",
+                user: "da_legend34",
                 body: "This is a comment",
                 avatar: '',
                 date: "11/12/19",
@@ -154,7 +155,7 @@ export const data = [
                 dislikes: 5,
             },
             {
-                user: "JoeShmoe",
+                user: "xx360noscopesxx",
                 body: "This is a comment",
                 avatar: '',
                 date: "11/12/19",
@@ -163,7 +164,7 @@ export const data = [
                 dislikes: 5,
             },
             {
-                user: "JoeShmoe",
+                user: "turtles77",
                 body: "This is a comment",
                 avatar: '',
                 date: "11/12/19",
@@ -176,6 +177,7 @@ export const data = [
     {
         image:'https://i.kinja-img.com/gawker-media/image/upload/c_scale,f_auto,fl_progressive,q_80,w_1600/y7cdfudhh8kelpo60uxv.png',
         title: 'Nintendo Was Worried Donkey Kong Country Was "Too 3D"',
+        video: "0Uo52EwyiCc",
         body: "This week marks the 25th anniversary of the classic and beloved Donkey Kong Country. To celebrate this milestone, some of the developers behind the game took part in a series of interviews about the game, its development and its release. And according to one developer who worked on the game, Nintendo was actually worried the game was “too 3D” and that it would be too overwhelming for players and they would be unable to actually play it.\n\nReleased on Nov. 21, 1994 for the SNES and developed by Rare, DK Country was a 2D platformer built using 3D-looking assets. In a new 1 hour interview and documentary from Shesez, best known for the popular Boundary Break videos, we learn a bunch of interesting information about the development of this classic game.\n\n\nFor example, did you know that the design of Donkey Kong was just a big gorilla with the eyes from a Battletoad slapped on it? OR that the Kremlings, enemies in the game, were actually originally part of a different failed project?\n\n\nAnd yes, Cranky Kong is the original Donkey Kong from the arcade games. Though Rare didn’t promote this too much in the game or in ads because they were worried Nintendo would change or remove the character if they did.\n\nThe whole video is just over an hour-long, so you might want to grab some snacks and a drink before you start watching. But for fans of Donkey Kong Country and or folks who love learning more about old games, this video is worth watching.",
 
         comments:[

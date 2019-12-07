@@ -5,10 +5,13 @@ import { Article } from './article';
 import { Footer } from './footer';
 import { ArticleBar } from './articlebar';
 import { Header } from './header';
+import { Modal } from './modal';
 
 function App() {
   const [articleId, setArticleId] = useState(0)
   const [showHeader, setShowHeader] = useState(true)
+  const [modalText, setModalText] = useState("Modal Text")
+  const [modal, setModal] = useState(false)
 
   const chooseArticle = (id) =>{
     window.scrollTo(0, 0);
@@ -50,11 +53,26 @@ function App() {
     }
   ]
 
+  const toggleModal=(open, text)=>{
+    if(text===modalText && open===modal){
+      setModal(false)
+      return
+    }
+    if(text)
+    {
+      
+      setModalText(text)
+      
+    }
+    
+    setModal(open)
+  }
 
 
   return (
     <div className="App flex" style={{backgroundColor:"white"}}>
-      <Header current="home" show={showHeader}/>
+      <Header current="home" show={showHeader} toggleModal={toggleModal}/>
+      <Modal text={modalText} show={modal} toggleModal={toggleModal}/>
       <Article title={articles[articleId].title} body={articles[articleId].body} src={articles[articleId].image} id={articleId}/>
       <ArticleBar articles={articles} chooseArticle={chooseArticle} current={articleId}/>
       <Footer/>

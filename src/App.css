@@ -317,6 +317,15 @@ textarea{
   padding: 8px;
 }
 
+.youtube{
+  margin-bottom: 64px;
+}
+
+.youtube-iframe{
+  width: 400px;
+  height: 225px;
+}
+
 /* --------------------------------------------------------COMMENTS  */
 
 #comment-section{
@@ -392,6 +401,45 @@ textarea{
 
 .comment-body{
   padding: 8px;
+}
+
+/* --------------------------------------------------------Modal  */
+
+.modal{
+  z-index: 1;
+  position: fixed;
+  top: 64px;
+  /* padding: 32px; */
+  width: 300px;
+  background-color: #ff9900f8;
+}
+
+.modal-text{
+  z-index: 1;
+  padding: 32px;
+  color: white;
+  font-family: 'Farro', sans-serif;
+}
+
+.close-modal{
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 8px;
+  cursor: pointer;
+  border-right: solid 1px white;
+  z-index: 2;
+  background-color: #ffffff5d;
+}
+
+.hide-modal{
+  transition: .5s ease;
+  transform: translateY(-256px);
+}
+
+.show-modal{
+  transition: .5s ease;
+  transform: translateY(0);
 }
 
 @keyframes fadeIn {
