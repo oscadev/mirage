@@ -3,7 +3,7 @@ import {data} from './dummydata'
 
 export const Comments = (props) => {
     const [comments, setComments] = useState([]);
-    const [show, setShow] = useState(false);
+    const [show, setShow] = useState(true);
 
     const makeComments = (arr) => {
         let tempArr = [];
@@ -49,7 +49,7 @@ export const Comments = (props) => {
     }, [])
 
     return (
-        <div id="comment-section" className="flex ">
+        <div id="comment-section" className="flex">
 <div className="comment-section-header" onClick={()=>setShow(!show)}>{show?"":"VIEW"} COMMENTS({data[props.id].comments.length})</div>
             <div className="comments flex" style={{display:show?"":"none"}}>
                 {comments}

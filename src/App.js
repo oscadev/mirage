@@ -8,7 +8,7 @@ import { Header } from './header';
 import { Modal } from './modal';
 
 function App() {
-  const [articleId, setArticleId] = useState(0)
+  const [articleId, setArticleId] = useState(4)
   const [showHeader, setShowHeader] = useState(true)
   const [modalText, setModalText] = useState("Modal Text")
   const [modal, setModal] = useState(false)
