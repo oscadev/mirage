@@ -68,6 +68,17 @@ function App() {
     setModal(open)
   }
 
+  useEffect(()=>{
+    var maxWidth = document.documentElement.offsetWidth;
+[].forEach.call(
+  document.querySelectorAll('*'),
+  function(el) {
+    if (el.offsetWidth > maxWidth) {
+      console.log("big",el);
+    }
+  }
+);
+  },[])
 
   return (
     <div className="App flex" style={{backgroundColor:"white"}}>

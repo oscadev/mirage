@@ -41,12 +41,13 @@ font-family: 'Farro', sans-serif; */
 #header {
   background-color: #ffffff;
   height: 64px;
-  width: 100%;
+  width: 100vw;
   color: black;
   justify-content: flex-start;
   z-index: 3;
   position: sticky;
   top: 0;
+  overflow: hidden;
 }
 
 .show{
@@ -253,7 +254,7 @@ textarea{
 #footer{
   margin-top: 16px;
   width: 100vw;
-  min-width: 400px;
+
   height: 200px;
   background-color: rgb(226, 166, 0);
 }
@@ -322,8 +323,8 @@ textarea{
 }
 
 .youtube-iframe{
-  width: 400px;
-  height: 225px;
+  width: 100%;
+  max-width: 500px;
 }
 
 /* --------------------------------------------------------COMMENTS  */
@@ -453,5 +454,30 @@ textarea{
   100%{
     opacity: 1;
     transform: translateY(1);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .tab{
+    margin:15px;
+    color: #fc5000;
+    font-size: .7em;
+    border-bottom: 1px solid #ffffff;
+    padding: 3px;
+    cursor: pointer;
+  }
+
+  .logo{
+    
+    color: #ff0000;
+    font-size: 1.5em;
+    justify-content: flex-end;
+  }
+
+  .hor-div{
+    border-left: rgb(255, 230, 0) 1px solid;
+    height: 48px;
+    width: 1px;
+
   }
 }
